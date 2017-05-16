@@ -1,0 +1,89 @@
+header{
+	width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-bottom: 0.02rem solid #c8c8c8;
+    color: #000;
+    text-align: center;
+    font-size: .35rem;
+    background-color: #f7f7f8;
+}
+.field {
+    border-bottom: 0.02px solid #ddd;
+    padding: .373333rem .266667rem;
+    color: #6c6c6c;
+    background-color: #fff;
+    text-align: left;
+    width: 14.2rem;
+    height: 1rem;
+    margin-top: 0.5rem;
+
+}
+.field-mi {
+    border-bottom: 0.02px solid #ddd;
+    padding: .373333rem .266667rem;
+    color: #6c6c6c;
+    background-color: #fff;
+    text-align: left;
+    width: 14.2rem;
+    height: 1rem;
+}
+.label{
+	width: 1.5rem;
+	color: #6c6c6c;
+	text-align: left;
+	font-size: .3rem;
+	float: left;
+	margin-top: -0.03rem;
+}
+.input-required{
+	width: 10.56rem;
+	height: 0.74rem;
+    background-color: transparent;
+    float: left;
+	margin-top: -0.2rem;
+	border: 0px solid;
+	font-size: .3rem;
+
+}
+.submit {
+    margin: .48rem .266667rem 0;
+/*     width: 14.2rem;
+    height: 1.8796rem; */
+
+}
+.button {
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    border: 1px solid #c40000;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c40000;
+    text-align: center;
+    font-size: .426667rem;
+    display: block;
+}
+.other-link {
+    overflow: hidden;
+    margin: .4rem .266667rem;
+    color: #6c6c6c;
+    font-size: 0.28rem;
+}
+.other-link a {
+    color: #c40000;
+}
+.ft-left{
+	float: left;
+}
+.ft-right{
+	float: right;
+}
+.mt{
+	text-align: center;
+	font-size: .3rem;
+}
+.mt a{
+    color: #f40;
+}
+

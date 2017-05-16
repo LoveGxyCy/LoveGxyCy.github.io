@@ -1,0 +1,194 @@
+.szh-limodel {
+    width: 100%;
+}
+.szh-box-title {
+    width: 100%;
+    height: 1.6rem;
+}
+.szh-h1 {
+    width: 100%;
+    text-align: center;
+    height: 0.6rem;
+    letter-spacing: 1px;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+}
+.szh-h1 span {
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    vertical-align: middle;
+}
+.szh-h1 span.szh-lin {
+    font-size: 0.26rem;
+    line-height: 0.1rem;
+    vertical-align: middle;
+}
+.szh-oneouter {
+    padding: 0.1rem 0;
+}
+.shz-one {
+    width: 0.8rem;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    background: #666;
+}
+.szh-tab {
+    width: 100%;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.2rem;
+    margin-top: 0.3rem;
+}
+.szh-content {
+    font-size: 0.26rem;
+    color: #666;
+}
+.szh-p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3rem;
+}
+.p-inner {
+    width: 100%;
+    height: auto;
+    line-height: 0.4rem;
+    text-align: left;
+    margin-bottom: 0.2rem;
+}
+.szh-table {
+    width: 100%;
+    height: 1.78rem;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-bottom: 0.25rem;
+    position: relative;
+    overflow: hidden;
+}
+.szh-table-line {
+    position: absolute;
+    width: 100%;
+    height: 0.01rem;
+    background: #666;
+    left: 0;
+    top: 0.5rem;
+}
+.szh-td {
+    width: 1.3rem;
+    height: 100%;
+    /* padding: 0 0.2rem; */
+    float: left;
+}
+.szh-td-top {
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.szh-td-top span {
+    font-size: 0.26rem;
+    color: #333;
+}
+.szh-td-bottom {
+    width: 100%;
+    overflow: hidden;
+    height: 1.4rem;
+    padding-top: 0.1rem;
+    text-align: left;
+}
+.szh-td1 {
+    width: 2.9rem;
+}
+.szh-table .szh-td-bottom p {
+    line-height: 0.5rem;
+    text-transform: uppercase;
+}
+.szh-td1 {
+    width: 2.9rem;
+}
+.szh-textl {
+    text-align: left;
+}
+.szh-limodel {
+    width: 100%;
+}
+.szh-box-title {
+    width: 100%;
+    height: 1.6rem;
+}
+.szh-image {
+    width: 5.4rem;
+    height: 1.8rem;
+    margin: 0 auto;
+    margin-bottom: 0.25rem;
+}
+.szh-imginner {
+    width: 2.4rem;
+    height: 1.8rem;
+    margin: 0 0.11rem;
+    float: left;
+}
+.szh-liu {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0.26rem;
+    color: #787878;
+}
+.szh-liuinner {
+    width: 100%;
+    height: 1.8rem;
+    border-bottom: 1px solid #666;
+}
+.szh-liuinner1 {
+    border-top: 1px solid #666;
+    height: 1.5rem;
+}
+.szh-num {
+    width: 0.9rem;
+    height: 100%;
+    margin-left: 0.4rem;
+    line-height: 1.10rem;
+    text-align: center;
+    float: left;
+    font-size: 0.5rem;
+    font-weight: 200;
+}
+.szh-buzhou {
+    width: 2.5rem;
+    height: 0.5rem;
+    float: left;
+    padding: 0.15rem 0;
+    line-height: 0.25rem;
+    margin-left: 0.2rem;
+}
+.szh-buzhou p {
+    margin-bottom: 0.06rem;
+    line-height: 0.36rem;
+}
+.szh-jiantou {
+    width: 0.25rem;
+    height: 0.49rem;
+    float: left;
+    margin: 0.48rem 0;
+    background: url('../img/szh-jiantou.png') no-repeat;
+    background-size: 100%;
+}
+.szh-buzhou p {
+    margin-bottom: 0.06rem;
+    line-height: 0.36rem;
+}
+.szh-buzhou1 {
+    margin-left: 0.1rem;
+}
+.szh-tel {
+    width: auto;
+    float: left;
+    height: 100%;
+    line-height: 1.10rem;
+    margin-left: 0.25rem;
+}
+.szh-tel span {
+    margin-left: 0.25rem;
+}

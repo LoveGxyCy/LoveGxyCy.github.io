@@ -1,0 +1,188 @@
+.banner2{
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/images/banner2_03.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.firstbox{
+	width: 100%;
+	height: 521px;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.lianjiebox{
+	width: 1000px;
+	height: 126px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.lianjie{
+	width: 200px;
+	height: 18px;
+	font-size: 16px;
+	color: #474646;
+	line-height: 18px;
+	margin-top: 56px;
+}
+.teacherbox{
+	width: 1000px;
+	height: 396px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.teacher1{
+	width: 100%;
+	height: 23px;
+	font-size: 22px;
+	color: #111111;
+	text-align: center;
+	line-height: 23px;
+}
+.teacher2{
+	width: 100%;
+	height: 23px;
+	font-size: 21px;
+	color: #676666;
+	text-align: center;
+	line-height: 23px;
+	margin-top: 10px;
+}
+.teacher3{
+	width: 450px;
+	height: 311px;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+.teacher3-1{
+	width: 100%;
+	height: 23px;
+	font-size: 21px;
+	color: #676666;
+	line-height: 23px;
+}
+.teacher3-1 span{
+	color: #07a901;
+}
+.teacher3-2{
+	width: 100%;
+	height: 23px;
+	font-size: 21px;
+	color: #676666;
+	line-height: 23px;
+	margin-top: 28px;
+}
+.teacher3-2 span{
+	color: #07a901;
+}
+.secondbox{
+	width: 1000px;
+	height: 1238px;
+	margin: 0 auto;
+	margin-top: 105px;
+	margin-bottom: 84px;
+}
+.jiaoshi{
+	width: 100%;
+	height: 357px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 84px;
+}
+.jiaoshi li{
+	width: 475px;
+	height: 100%;
+	border-right: 1px solid #415740;
+	position: relative;
+	overflow: hidden;
+}
+.jiaoshi-left{
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	z-index: 3000;
+}
+.jiaoshi-left img{
+	width: 100%;
+	height: 100%;
+}
+.jiaoshi-right{
+	width: 325px;
+	height: 100%;
+	background: #eaedeb;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.jiaoshi-right-box{
+	width: 200px;
+	height: 100%;
+	float: right;
+	margin-right: 12px;
+	overflow: hidden;
+}
+.teacher-name{
+	width: 100%;
+	height: 22px;
+	margin-top: 88px;
+	font-size: 20px;
+	color: #111111;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 22px;
+}
+.teacher-sex{
+	width: 100%;
+	height: 16px;
+	font-size: 16px;
+	color: #424040;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 16px;
+	margin-top: 9px;
+}
+.teacher-de{
+	width: 100%;
+	height: 16px;
+	font-size: 16px;
+	color: #1b1a1a;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 16px;
+	margin-top: 9px;
+}
+.teacher-de1{
+	width: 100%;
+	height: 16px;
+	font-size: 16px;
+	color: #1b1a1a;
+	font-family: "微软雅黑";
+	text-align: justify;
+	line-height: 16px;
+	margin-top: 16px;
+}
+.class-1-free{
+	width: 522px;
+	height: 55px;
+	margin: 0 auto;
+	margin-top: 109px;
+	margin-bottom: 100px;
+}
+.free-z{
+	width: 310px;
+	height: 55px;
+	border-radius: 3px;
+	background: #549a31;
+	font-size: 28px;
+	color: #cae9d1;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	line-height: 55px;
+	margin: 0 auto;
+	margin-top: 109px;
+}

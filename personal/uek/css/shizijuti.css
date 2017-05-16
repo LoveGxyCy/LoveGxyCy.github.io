@@ -1,0 +1,143 @@
+.teacher_intro {
+    background-color: #fff;
+}
+.teacher_intro .overview {
+    width: 100%;
+    height: 4.08rem;
+    background-color: #fff;
+    margin-bottom: 0.2rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0.3rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b8b8b8;
+    margin-top: 0.2rem;
+}
+.teacher_intro .overview .shu {
+    width: 0.04rem;
+    height: 0.2rem;
+    background: #01b5ff;
+    display: inline-block;
+    float: left;
+    margin-left: 0;
+    margin-top: 0.07rem;
+    overflow: hidden;
+}
+.teacher_intro .overview h2 {
+    font-size: 0.28rem;
+    color: #333;
+    margin-left: 0.2rem;
+    margin-bottom: 0.13rem;
+    font-weight: normal;
+}
+.teacher_intro .overview .line {
+    width: 100%;
+    height: 0;
+    border-bottom: 0.01rem dashed #666666;
+}
+.teacher_intro .overview div.part {
+    width: 100%;
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+.teacher_intro .overview div.part .img {
+    width: 2.81rem;
+    height: 2.81rem;
+    border-radius: 0.08rem;
+    overflow: hidden;
+    float: left;
+}
+.teacher_intro .overview div.part .img img {
+    width: 100%;
+    height: 100%;
+}
+.teacher_intro .overview div.part .intro {
+    width: 2.9rem;
+    float: left;
+    height: 2.4rem;
+    box-sizing: border-box;
+    margin-top: 0.16rem;
+    margin-left: 0.26rem;
+}
+.teacher_intro .overview div.part .intro .name {
+    font-size: 0.28rem;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0.05rem;
+    border-bottom: 1px dashed #666;
+    height: 0.5rem;
+}
+.teacher_intro .overview div.part .intro .position {
+    font-size: 0.24rem;
+    color: #01b5ff;
+    margin-bottom: 0.3rem;
+}
+.teacher_intro .overview div.part .intro .profession {
+    font-size: 0.24rem;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 0.15rem;
+    width: 100%;
+    height: 0.3rem;
+    text-align: left;
+}
+.teacher_intro .overview div.part .intro .profession p {
+    font-weight: normal;
+    width: 0.9rem;
+    height: 100%;
+    float: left;
+    margin-left: 0;
+    background-color: transparent;
+    color: #333;
+    margin-top: -0.1rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.45rem;
+}
+.teacher_intro .overview div.part .intro .profession span {
+    font-weight: normal;
+    width: 2rem;
+    height: 100%;
+    margin-top: -0.04rem;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.teacher_intro .Introduction {
+    width: 100%;
+    background-color: #fff;
+    padding-left: 0.2rem;
+    padding-top: 0.16rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0.3rem;
+    box-sizing: border-box;
+}
+.teacher_intro .Introduction .shu {
+    width: 0.04rem;
+    height: 0.2rem;
+    background: #01b5ff;
+    display: inline-block;
+    float: left;
+    margin-left: -0.2rem;
+    margin-top: 0.07rem;
+    overflow: hidden;
+}
+.teacher_intro .Introduction h2 {
+    font-size: 0.28rem;
+    color: #444;
+    margin-bottom: 0.13rem;
+    font-weight: normal;
+}
+.teacher_intro .Introduction .line {
+    width: 100%;
+    height: 0.01rem;
+    border-bottom: 0.01rem dashed #666666;
+}
+.teacher_intro .Introduction p {
+    font-size: 0.24rem;
+    color: #666666;
+    line-height: 0.4rem;
+    margin: 0.26rem 0;
+    word-break: break-all;
+    word-wrap: break-word;
+}
