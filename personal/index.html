@@ -490,36 +490,43 @@
 					<a href="typegame/typegame.html"><div class="t-content">
 						<img class="t-img" src="typegame/img/logo.png" alt="" />
 						<div class="cover"></div>
+						<div class="cover1" style="color: #c6f5ff;">打字游戏</div>
 					</div></a>
 
 					<a href="huaban/draw.html"><div class="t-content">
 						<img class="t-img" src="huaban/11111.jpg" alt="" />
 						<div class="cover"></div>
+						<div class="cover1" style="color: #ffcea9;">画板</div>
 					</div></a>
 
 					<a href="saolei/saolei.html"><div class="t-content">
 						<img class="t-img" src="saolei/11111.jpg" alt="" />
 						<div class="cover"></div>
+						<div class="cover1" style="color: #ffc0e6;">扫雷小游戏</div>
 					</div></a>
 
 					<a href="todo.html"><div class="t-content">
 						<img class="t-img" src="img/11111.jpg" alt="" />
 						<div class="cover"></div>
+						<div class="cover1" style="color: #d0b4ff;">TODO LIST</div>
 					</div></a>
 
 					<a href="tianmaomo/tianmaomo.html"><div class="t-content">
 						<img class="t-img" src="tianmao/img/11111.jpg" alt="" />
 						<div class="cover"></div>
+						<div class="cover1" style="color: #c6f5ff;">天猫移动</div>
 					</div></a>
 
 					<a href="uek/index.html"><div class="t-content">
 						<img class="t-img" src="img/136.png" alt="" />
 						<div class="cover"></div>
+						<div class="cover1" style="color: #eeffc2;">优逸客</div>
 					</div></a>
 
 					<a href="weather.html"><div class="t-content">
 						<img class="t-img" src="img/1415.jpg" alt="" />
 						<div class="cover"></div>
+						<div class="cover1" style="color: #d1ffbb;">天气</div>
 					</div></a>
 
 					<div class="t-content index1">
@@ -737,5 +744,16 @@
         ]
     };
     my.setOption(option);
+
+    var content=document.querySelectorAll(".t-container .t-content");
+    var cover=document.querySelectorAll(".t-container .t-content .cover1");
+    Array.from(content).forEach(function (ele,index) {
+		ele.onmouseover=function () {
+			cover[index].style.opacity=0;
+        };
+        ele.onmouseout=function () {
+            cover[index].style.opacity=0.85;
+        }
+	})
 </script>
 </html>
