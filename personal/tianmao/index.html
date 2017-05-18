@@ -5877,48 +5877,48 @@
 <script src="js/animate.js"></script>
 <script src="js/hover.js"></script>
 <script>
-    var banner = document.querySelector("main");
-    var banner1 = document.querySelectorAll(".banner1 img");
-    var lb = document.querySelectorAll(".lunbobox ul li");
-    var obj = lb[0];
-    var obj1 = banner1[0];
-    var colorArr = ["#134FD8", "#E8E8E8", "#E8E8E8", "#FB8001", "#E8E8E8", "#FEEC27"]
-    Array.from(lb).forEach(function (ele, index) {
-        ele.onmouseover = function () {
-            num8 = index;
-            banner.style.background = colorArr[num8];
-            obj.style.background = "#F1F1F1";
-            lb[num8].style.background = "#A2A2A2";
-            obj = lb[num8];
-            obj1.style.zIndex = 1;
-            obj1.style.opacity = 0.5;
-            banner1[index].style.zIndex = 2;
-            banner1[index].style.opacity = 1;
-            obj1 = banner1[index];
+    var banner=document.querySelector("main");
+    var banner1=document.querySelectorAll(".banner1 img");
+    var lb=document.querySelectorAll(".lunbobox ul li");
+    var colorArr = ["#134FD8", "#E8E8E8", "#E8E8E8", "#FB8001", "#E8E8E8", "#FEEC27"];
+    var obj=lb[0];
+    var obj1=banner1[0];
+    Array.from(lb).forEach(function (ele,index) {
+        ele.onmouseover=function () {
+            num=index;
+            banner.style.background = colorArr[num];
+            obj.style.background="#F1F1F1";
+            lb[num].style.background="#A2A2A2";
+            obj=lb[num];
+            obj1.style.zIndex=1;
+            obj1.style.opacity=0.5;
+            banner1[index].style.zIndex=2;
+            banner1[index].style.opacity=1;
+            obj1=banner1[index];
         }
     });
-    var num8 = 0;
-    var t = setInterval(move, 2000);
+    var num=0;
+    var t=setInterval(move,2000);
     function move() {
-        num8++;
-        if (num8 == lb.length) {
-            num8 = 0;
+        num++;
+        if(num==lb.length){
+            num=0;
         }
-        banner.style.background = colorArr[num8];
-        obj.style.background = "#F1F1F1";
-        lb[num8].style.background = "#A2A2A2";
-        obj = lb[num8];
-        obj1.style.zIndex = 1;
-        obj1.style.opacity = 0.5;
-        banner1[num8].style.zIndex = 2;
-        banner1[num8].style.opacity = 1;
-        obj1 = banner1[num8];
+        banner.style.background = colorArr[num];
+        obj.style.background="#F1F1F1";
+        lb[num].style.background="#A2A2A2";
+        obj=lb[num];
+        obj1.style.zIndex=1;
+        obj1.style.opacity=0.5;
+        banner1[num].style.zIndex=2;
+        banner1[num].style.opacity=1;
+        obj1=banner1[num];
     }
-    banner.onmouseover = function () {
+    banner.onmouseover=function () {
         clearInterval(t);
     };
-    banner.onmouseout = function () {
-        t = setInterval(move, 2000);
+    banner.onmouseout=function () {
+        t=setInterval(move,2000);
     };
 
 
